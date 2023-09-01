@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <header>
         <h1>
-            To do List
+            {title}
         </h1>
     </header>
   )

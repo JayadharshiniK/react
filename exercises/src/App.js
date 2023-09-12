@@ -4,6 +4,11 @@ import ResetPasswordForm from './ResetPasswordForm';
 import ResetPassword from './ResetPassword';
 import DisableSubmit from './DisableSubmit';
 import ShowPassword from './ShowPassword';
+import SmallFigma from './SmallFigma/SmallFigma';
+import SwitchTabs from './SwitchTabs';
+import Toasts from './Toasts';
+import DarkMode from './DarkMode.js/DarkMode';
+
 
 function App() {
   return (
@@ -13,6 +18,10 @@ function App() {
       <ResetPassword />
       <DisableSubmit />
       <ShowPassword />
+      <SmallFigma />
+      <SwitchTabs />
+      <Toasts />
+      <DarkMode />
     </div>
   );
 }

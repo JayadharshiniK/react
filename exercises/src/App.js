@@ -8,6 +8,12 @@ import SmallFigma from './SmallFigma/SmallFigma';
 import SwitchTabs from './SwitchTabs';
 import Toasts from './Toasts';
 import DarkMode from './DarkMode.js/DarkMode';
+import SearchFilter from './SearchFilter/SearchFilter';
+import SimpleCounter from './SimpleCounter/SimpleCounter';
+import ListOutput from './ListOutput';
+import DataFetch from './DataFetch';
+import CountdownTimer from './CountdownTimer';
+import Form from './Form/Form';
 
 
 function App() {
@@ -22,6 +28,12 @@ function App() {
       <SwitchTabs />
       <Toasts />
       <DarkMode />
+      <SearchFilter />
+      <SimpleCounter />
+      <ListOutput />
+      <DataFetch />
+      <CountdownTimer />
+      <Form />
     </div>
   );
 }
